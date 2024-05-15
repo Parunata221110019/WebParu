@@ -1,61 +1,54 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
+.banner {
+    background: url("./assets/img/img1.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(219, 226, 196);
 }
 
-header {
-    padding: 15px 20px;
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 158px;
+    margin: auto;
+    height: 150px;
+    color: white;
+    background-color: red;
 }
 
-header .navbar-brand {
-    font-size: 24px;
-    font-weight: bold;
+.lingkaran i{
+    position: relative;
+    top: 30px;
 }
 
-header a {
+.crop-img {
+    object-fit: cover;
+}
+
+.tim img {
+    width: 250px;
+    border: 10px solid #cccccc;
+}
+
+a.social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
     color: #fff;
-    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
 }
 
-main {
-    padding: 20px;
+.client img {
+    height: auto;
+    max-height: 50px;
 }
 
-main h2 {
-    margin-bottom: 15px;
-}
-
-main p {
-    line-height: 1.5;
-}
-
-.card {
-    margin-bottom: 20px;
-    border: none;
-}
-
-.card-img-top {
-    border-radius: 5px 5px 0 0;
-}
-
-.card-body {
-    padding: 15px;
-}
-
-.card-title {
-    margin-bottom: 10px;
-}
-
-.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-}
-
-.btn-secondary {
-    background-color: #6c757d;
-    border-color: #6c757d;
-}
-
-section.row {
-    margin-bottom: 30px;
+.kontak {
+    background: url("./assets/img/dun.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
 }
